@@ -1,0 +1,5 @@
+#!/bin/bash
+#compile script
+
+gcc ./src/main.cpp -lstdc++ -o ./bin/main
+./bin/main
