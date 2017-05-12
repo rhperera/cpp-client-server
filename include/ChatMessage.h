@@ -1,16 +1,14 @@
-#ifndef __CHATMESSAGE_H_INCLUDED__
-#define __CHATMESSAGE_H_INCLUDED__
+#pragma once
 
 class ChatMessage
 {
-private:
-	int timestamp;
 public:
 	ChatMessage();
 	~ChatMessage();
 	int getTimestamp();
 	void setTimestamp(int &ts);
+protected:
+private:
+	int timestamp;
 
 };
-
-#endif

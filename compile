@@ -1,5 +1,5 @@
 #!/bin/bash
 #compile script
 
-gcc ./src/main.cpp -lstdc++ -o ./bin/main
+gcc ./src/Main.cpp -lstdc++ -std=c++0x -pthread -o ./bin/main
 ./bin/main
